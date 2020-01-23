@@ -1,0 +1,19 @@
+/* 取消 ios 点击响应的背景色 */
+body,
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* 重置 input 样式 */
+input {
+  border: 0;
+  padding: 0;
+  outline: none;
+  background: none;
+  appearance: none;
+}
+
+/* 修改 input 背景字样式 */
+::-webkit-input-placeholder {
+  color: black;
+}

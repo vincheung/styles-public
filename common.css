@@ -1,0 +1,24 @@
+/* 居中 */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 遮罩层 */
+.mask,
+.mask-transparent {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.mask {
+  background: rgba(0, 0, 0, 0.6);
+}
+.mask-white {
+  background: white;
+}
